@@ -103,7 +103,7 @@ function App() {
             {
               winner === false ?
               'Empate' :
-              'mi nigga u winn'
+              'mi nigga u won'
             }
           </h2>
           <header className='win'>
