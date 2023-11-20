@@ -1,7 +1,8 @@
-import { Square } from "./Square";
-export function WinnerModal({clearBoard, winner}) {
-  if (winner === null) return null;
-  const textgame = winner === false ? "Empate" : "mi nigga u won"
+/* eslint-disable react/react-in-jsx-scope */
+import { Square } from './Square'
+export function WinnerModal ({ clearBoard, winner }) {
+  if (winner === null) return null
+  const textgame = winner === false ? 'Empate' : 'mi nigga u won'
   return (
     <section className="winner">
       <div className="text">
@@ -11,6 +12,6 @@ export function WinnerModal({clearBoard, winner}) {
           <button onClick={clearBoard}>Empezar de nuevo</button>
         </footer>
       </div>
-    </section>  
-  );
+    </section>
+  )
 }
