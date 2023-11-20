@@ -53,7 +53,7 @@ function App() {
   };
   return (
     <main className="board">
-      <h1>Tres en linea online</h1>
+      <h1>Tres en linea</h1>
       <section className="game">
         {board.map((_, index) => {
           return (
