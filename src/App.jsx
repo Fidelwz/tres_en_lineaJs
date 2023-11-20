@@ -22,7 +22,7 @@ function App () {
     initializeStateFromStorage('board', Array(9).fill(null))
   )
   const [turn, setTurn] = useState(() =>
-    initializeStateFromStorage('board', TURNS.X)
+    initializeStateFromStorage('turn', TURNS.X)
   )
   const [winner, setWinner] = useState(null) // null es que no hay ganador , false es que hay un empate
 
